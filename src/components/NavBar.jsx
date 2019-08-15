@@ -2,7 +2,7 @@ import React from 'react'
 import Logo_port from '../images/logo_port.svg';
 const NavBar = () =>{
     return(
-        <nav className="navbar navbar-expand-lg fixed-top bg-primary">
+        <nav className="navbar navbar-expand-lg bg-primary">
         <div className="container">
             <a className="navbar-brand" href="#"><img src={Logo_port} className="logo"/></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -11,7 +11,7 @@ const NavBar = () =>{
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav ml-auto">
+                <ul className="navbar-nav m-auto">
                     <li className="nav-item mx-4">
                         <a className="nav-link" href="#hero">Inicio</a>
                     </li>

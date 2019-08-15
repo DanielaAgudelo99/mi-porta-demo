@@ -6,6 +6,7 @@ import Proyectos from '../components/Proyectos'
 import Referencias from '../components/Referencias'
 import Demostraciones from '../components/Demostraciones'
 import Articulos from '../components/Articulos'
+import Contratame from '../components/Contratame'
 const App=()=>{
     return(
         <Main>
@@ -15,6 +16,7 @@ const App=()=>{
             <Referencias/>
             <Demostraciones/>
             <Articulos/>
+            <Contratame/>
         </Main>
     )
 }
